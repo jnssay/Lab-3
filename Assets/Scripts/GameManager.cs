@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
     {
         // Initialize with normal map
         SpawnMap(false);
+        Application.targetFrameRate = 60;
     }
 
     // Called by Player / Obstacle triggers
